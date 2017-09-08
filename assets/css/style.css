@@ -1,17 +1,45 @@
-body {
+/*body {
     background-color: #020115;
     margin-bottom: 30px;
-    font-family: 'Audiowide', sans-serif;
     margin: 0;
     padding: 0;
-}
-
+}*/
 
 body {
+    font-family: 'Audiowide', sans-serif;
     background: radial-gradient(circle, black, #0282ff, black);
     display: flex;
     justify-content: center;
     margin-bottom: 50px;
+}
+
+button {
+    padding: 10px;
+    font-size: 20px;
+    margin-top: 5px;
+    border: 1px solid black;
+    background: #0282ff;
+    border-radius: 5%;
+    margin-right: 10px;
+    font-family: 'Orbitron';
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: gray;
+}
+
+button:focus {
+    background: gray;
+}
+
+h2,
+p {
+    font-family: 'Orbitron';
+}
+
+h2 {
+    display: none;
 }
 
 .header {
@@ -21,6 +49,10 @@ body {
     text-shadow: 0 0 0.5em #51dfff, 0 0 0.5em #51dfff, 0 0 0.5em #51dfff;
     text-align: center;
     font-size: 25px;
+}
+
+.header-box {
+    text-align: center;
 }
 
 canvas {
@@ -49,4 +81,12 @@ canvas {
 
 .space-station header {
     font-weight: bold;
+}
+
+.reveal-content {
+    display: block;
+}
+
+#start-game {
+    text-align: center;
 }
