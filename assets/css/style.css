@@ -1,0 +1,52 @@
+body {
+    background-color: #020115;
+    margin-bottom: 30px;
+    font-family: 'Audiowide', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    background: radial-gradient(circle, black, #0282ff, black);
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.header {
+    font-family: 'Audiowide', cursive;
+    color: #17206b;
+    /*text-shadow: 5px 3px 5px #51dfff;*/
+    text-shadow: 0 0 0.5em #51dfff, 0 0 0.5em #51dfff, 0 0 0.5em #51dfff;
+    text-align: center;
+    font-size: 25px;
+}
+
+canvas {
+    width: 100%;
+    text-align: center;
+    /*box-shadow: 5px 5px 5px #17206b;*/
+    box-shadow: 0 0 1em #51dfff, 0 0 1em #51dfff, 0 0 1em #51dfff;
+}
+
+.name-craft-box {
+    box-shadow: 0 0 1em #51dfff, 0 0 1em #51dfff, 0 0 1em #51dfff;
+    display: inline-block;
+    padding-left: 10px;
+}
+
+.name-craft-box header {
+    font-weight: bold;
+}
+
+.space-station {
+    display: inline-block;
+    vertical-align: top;
+    box-shadow: 0 0 1em #51dfff, 0 0 1em #51dfff, 0 0 1em #51dfff;
+    padding-left: 10px;
+}
+
+.space-station header {
+    font-weight: bold;
+}
