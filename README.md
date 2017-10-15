@@ -14,4 +14,4 @@ ailing justice system but the majority serve to line the pockets of investors an
 A game written in JavaScript and uses Phaser library.
 <p>Game link below, chrome blocks the phaser library plugin unfortunately, so you will need to enable it to view the game</p>
 <a href="https://rjleask.github.io/firewall-penitentiary-sp/">View Game Here!</a>
-to learn more about the library visit http://phaser.io/learn
+<p>to learn more about the library visit http://phaser.io/learn</p>
